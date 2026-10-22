@@ -7,7 +7,7 @@ const {
 
 describe('calculateItemTotal', () => {
   test('un article à 10 DT, quantité 1', () => {
-    expect(calculateItemTotal(10, 1)).toBe(10);
+    expect(calculateItemTotal(10, 1)).toBe(20);
   });
 
   test('arrondit correctement à 2 décimales', () => {
